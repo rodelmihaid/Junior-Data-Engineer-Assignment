@@ -3,3 +3,6 @@ Ideea mea a fost initial sa import csv-urile in programul meu, am dat merge de t
 Am folosit "fuzzywuzzy" pentru a compara asemanarile in functie de coloanele relevante si am dat drop la liniile care nu aveau legatura(ps. aveau legatura daca minim 3 aveau procent de peste 80% asemanare sau o comparatie dintre coloanele importante "name","category" aveau 100%).
 Am creeat o functie care pana sa dea drop la coloanele duble de dupa merge si alege din cele 2 valoarea relevanta( am reusit doar daca una este null sa o aleaga pe cea care are valoare, am incercat sa verifice si daca una din cele 2 are caractere speciale sa o aleaga pe cealalata, dar nu mi-a iesit).
 Daca tot raman linii multiple cu aceeasi valoare "domain" sterg copiile, iar rezultatul l-am salvat intr-un nou csv.
+
+
+ps. Trebuie modificata calea catre seturile de date.
